@@ -1,0 +1,67 @@
+## 进货明细模块
+
+| 接口名                                | 接口说明         | 请求方法     | 请求数据 | 返回数据 |
+| ------------------------------------- | ---------------- | ------------ | -------- | -------- |
+| /servlet/AddDetailsServlert           | 新增商品明细     | POST         | user     | user     |
+| /servlet/DelDetailsServlert           | 删除商品明细     | GET          | user     | user     |
+| /servlet/EditDetailsServlert          |                  | 修改商品明细 | POST     | user     |
+| /servlet/GetDetailsServlert           | 查询全部商品明细 | GET          | user     | user     |
+| /servlet/FindDetailsByNoServlert      | 按交易单号查询   | GET          | user     | user     |
+| /servlet/FindDetailsByBarCodeServlert | 按商品条码查询   | GET          | user     | user     |
+| /servlet/FindDetailsByNameServlert    | 按商品名称查询   | GET          | user     | user     |
+
+## 进货登记模块
+
+| 接口名                                      | 接口说明            | 请求方法 | 请求数据 | 返回数据 |
+| ------------------------------------------- | ------------------- | -------- | -------- | -------- |
+| /servlet/AddRegistrationServlert            | 新增进货登记        | POST     | user     | user     |
+| /servlet/DelRegistrationServlert            | 删除进货登记        | GET      | user     | user     |
+| /servlet/EditRegistrationServlert           | 修改进货登记        | POST     | user     | user     |
+| /servlet/GetRegistrationServlert            | 查询全部进货登记GET | user     | user     |          |
+| /servlet/FindRegistrationByNoServlert       | 按交易单号查询      | GET      | user     | user     |
+| /servlet/FindRegistrationBySupplierServlert | 按供应商查询        | GET      | user     | user     |
+| /servlet/FindRegistrationByDateServlert     | 按交易日期查询      | GET      | user     | user     |
+
+## 退货登记模块
+
+| 接口名                               | 接口说明         | 请求方法 | 请求数据 | 返回数据 |
+| ------------------------------------ | ---------------- | -------- | -------- | -------- |
+| /servlet/AddRefundServlert           | 新增退货登记     | POST     | user     | user     |
+| /servlet/DelRefundServlert           | 删除退货登记     | GET      | user     | user     |
+| /servlet/EditRefundServlert          | 修改退货登记     | POST     | user     | user     |
+| /servlet/GetRefundServlert           | 查询全部退货登记 | GET      | user     | user     |
+| /servlet/FindRefundByNoServlert      | 按交易单号查询   | GET      | user     | user     |
+| /servlet/FindRefundByBarCodeServlert | 按产品条码查询   | GET      | user     | user     |
+| /servlet/FindRefundByRDateServlert   | 按退货日期查询   | GET      | user     | user     |
+
+## 库存管理模块
+
+| 接口名                              | 接口说明       | 请求方法 | 请求数据 | 返回数据 |
+| ----------------------------------- | -------------- | -------- | -------- | -------- |
+| /servlet/AddStockServlert           | 新增库存       | POST     | user     | user     |
+| /servlet/DelStockServlert           | 删除库存       | GET      | user     | user     |
+| /servlet/EditStockServlert          | 修改库存       | POST     | user     | user     |
+| /servlet/GetStockServlert           | 查询全部库存   | GET      | user     | user     |
+| /servlet/FindStockByBarCodeServlert | 按产品条码查询 | GET      | user     | user     |
+| /servlet/FindStockByNameServlert    | 按产品名称查询 | GET      | user     | user     |
+
+## 供应商管理模块
+
+| 接口名                                    | 接口说明               | 请求方法 | 请求数据 | 返回数据 |
+| ----------------------------------------- | ---------------------- | -------- | -------- | -------- |
+| /servlet/AddSupplierServlert              | 新增供应商             | POST     | user     | user     |
+| /servlet/DelSupplierServlert              | 删除供应商             | GET      | user     | user     |
+| /servlet/EditSupplierServlert             | 修改供应商             | POST     | user     | user     |
+| /servlet/GetSupplierServlert              | 查询全部供应商         | GET      | user     | user     |
+| /servlet/FindSupplierByCreditCodeServlert | 按统一社会信用代码查询 | GET      | user     | user     |
+| /servlet/FindSupplierByNameServlert       | 按供应商名称查询       | GET      | user     | user     |
+
+## 用户信息管理模块
+
+| 接口名                        | 接口说明         | 请求方法 | 请求数据 | 返回数据 |
+| ----------------------------- | ---------------- | -------- | -------- | -------- |
+| /servlet/AddUserServlert      | 新增用户信息     | POST     | user     | user     |
+| /servlet/DelUserServlert      | 删除用户信息     | GET      | user     | user     |
+| /servlet/EditUserServlert     | 修改用户信息     | POST     | user     | user     |
+| /servlet/GetUserServlert      | 查询全部用户信息 | GET      | user     | user     |
+| /servlet/FindUserByIdServlert | 按用户账号查询   | GET      | user     | user     |
